@@ -1,1 +1,35 @@
+p {
+  font-family: 'Hind', sans-serif;
+  font-weight: 300;
+}
 
+header {
+  position: relative;
+}
+
+.leftHeader {
+  position: absolute;
+  left: 20px;
+}
+
+.bold {
+  font-weight: 600;
+  color: #5b5b57;
+}
+
+.headerLogo {
+  background-image: url('../images/logo_gray.png');
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 25px;
+  background-size: 100% 100%;
+  display: inline-block;
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.companyAdmin {
+  display: inline-block;
+  color: #999999;
+}
