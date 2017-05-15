@@ -167,7 +167,7 @@ form > p {
 
 .tabTitle {
   border-bottom: solid 1px #EEEEEE;
-  width: 90%;
+  width: 100%;
   padding-bottom: 3px;
   font-size: 1.2rem;
 }
@@ -196,4 +196,73 @@ form > p {
   /*margin: 10px 0px 0px 173px;*/
   width: 242px;
   padding: 5px 0px;
+}
+
+.humiOptions {
+  border: solid 1px #EEEEEE;
+  color: #5b5b57;
+  border-radius: 5px;
+  width: 22%;
+  position: absolute;
+  left: 10%;
+  top: 12%;
+  font-family: 'Hind', sans-serif;
+  font-weight: 200;
+}
+
+.humiBlueImage {
+  background-image: url('../images/blue-logo.jpg');
+  background-size: 100% 100%;
+  border-radius: 5px;
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  margin: 0 8px 0 8%;
+  vertical-align: middle;
+}
+
+.payrollImage {
+  background-image: url('../images/payroll2.png');
+  background-size: 100% 100%;
+  border-radius: 5px;
+  height: 50px;
+  width:  50px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5.5%;
+}
+
+.settingsImage {
+  /*background-image: url('../images/payroll.png');*/
+  /*background-size: 100% 100%;*/
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  font-size: 35px;
+  color: 	#909090;
+  margin: 0 1px 0 9%;
+  vertical-align: bottom;
+}
+
+.humiInc {
+  position: relative;
+  border-bottom: solid 1px #EEEEEE;
+  height: 35px;
+  padding: 15px 0px;
+  background-color: #FAFAFA;
+}
+
+.payrollSelect {
+  position: relative;
+  border-bottom: solid 1px #EEEEEE;
+  background-color: #FAFAFA;
+  height: 35px;
+  padding: 3px 0 15px 0;
+}
+
+.settingsSelect {
+  position: relative;
+  height: 35px;
+  padding: 5px 0 15px 0;
 }
