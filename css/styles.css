@@ -43,6 +43,36 @@ ul {
   padding: 0;
 }
 
+form {
+  font-family: 'Hind', sans-serif;
+  font-weight: 300;
+}
+
+input {
+  border-radius: 5px;
+  border: solid 2px #EEEEEE;
+  width: 176px;
+  color: #5b5b57;
+  font-size: 0.9rem;
+  padding: 3px 10px;
+  margin-left: 15px;
+}
+
+select {
+  border-radius: 5px;
+  border: solid 2px #EEEEEE;
+  width: 200px;
+  background-color: white;
+  color: #5b5b57;
+  font-size: 0.9rem;
+  padding: 3px 10px;
+  margin-left: 50px;
+}
+
+form > p {
+  display: inline-block;
+}
+
 .leftHeader {
   position: absolute;
   left: 5px;
@@ -133,4 +163,37 @@ ul {
   position: absolute;
   left: 127px;
   top: 13px;
+}
+
+.tabTitle {
+  border-bottom: solid 1px #EEEEEE;
+  width: 90%;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.tabDesc {
+  color: #5b5b57;
+}
+
+.tabBox {
+  border: solid 1px #EEEEEE;
+  border-radius: 5px;
+  width: 50%;
+  position: absolute;
+  right: 10%;
+  top: 12%;
+  padding: 20px 20px;
+}
+
+.submit {
+  background-color: #53bbf4;
+  color: white;
+  border: solid 2px #EEEEEE;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin: 10px 0px 0px 173px;
+  width: 200px;
+  padding-left: 10px;
 }
