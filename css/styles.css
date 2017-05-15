@@ -51,31 +51,31 @@ form {
 input {
   border-radius: 5px;
   border: solid 2px #EEEEEE;
-  width: 176px;
+  width: 217px;
   color: #5b5b57;
   font-size: 0.9rem;
   padding: 3px 10px;
-  margin-left: 15px;
 }
 
 select {
   border-radius: 5px;
   border: solid 2px #EEEEEE;
-  width: 200px;
+  width: 240px;
   background-color: white;
   color: #5b5b57;
   font-size: 0.9rem;
   padding: 3px 10px;
-  margin-left: 50px;
 }
 
 form > p {
   display: inline-block;
+  width: 12rem;
 }
 
 .leftHeader {
   position: absolute;
   left: 5px;
+  top: 5px;
 }
 
 .bold {
@@ -168,7 +168,7 @@ form > p {
 .tabTitle {
   border-bottom: solid 1px #EEEEEE;
   width: 90%;
-  padding-bottom: 10px;
+  padding-bottom: 3px;
   font-size: 1.2rem;
 }
 
@@ -193,7 +193,7 @@ form > p {
   border-radius: 5px;
   font-weight: 400;
   font-size: 0.8rem;
-  margin: 10px 0px 0px 173px;
-  width: 200px;
-  padding-left: 10px;
+  /*margin: 10px 0px 0px 173px;*/
+  width: 242px;
+  padding: 5px 0px;
 }
